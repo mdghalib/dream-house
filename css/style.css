@@ -1,0 +1,125 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+/*header start*/
+
+header{
+	background-color: #FFFFFF;
+	padding: 10px 0;
+}
+.wrapper {
+	overflow: hidden;
+	margin: 0 auto;
+	width: 80%;
+	border: 2px solid black;
+}
+
+.logo {
+	width: 30%;
+	float: left;
+}
+
+.logo img{
+	width: 100%;
+}
+
+.menu {
+	width: 60%;
+	float: right;
+	margin-top: 20px;
+	margin-right: 40px;
+}
+
+.menu{}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	font-family: sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	color: #7A869A;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 0 20px;
+	display: inline-block;
+	transition: .3s;
+}
+.menu ul li a:hover{
+	color: #0078BD
+}
+
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+
+/*header end*/
+
+/*banner start*/
+.banner{
+	background-image: url(../images/apartment-architecture-ceiling-chair-259962.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	background-position: center;
+}
+.banner_content{
+	width: 25%;
+	/*border: 2px solid yellow;*/
+	margin-top: 40px;
+	margin-bottom: 160px;
+	padding: 20px;
+	background-color: rgba(11,11,11,.5);
+}
+.banner_content h1{
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+	color: white;
+	text-transform: uppercase;
+	margin: 0px;
+}
+.banner_content h2{
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+	color: white;
+	text-transform: uppercase;
+	margin: 0px;
+}
+.banner_content p{
+	font-family: sans-serif;
+	color: white;
+	margin: 0;
+	line-height: 20px;
+}
+.banner_content button{
+	width: 200px;
+	height: 40px;
+	margin-top: 10px;
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: white;
+	background-color: #4A484D;
+	border: 0;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: .3s;
+}
+.banner_content button:hover{
+	color: #0078BD;
+}
+.banner_content button:focus{
+	outline: 0;
+}
+
+
+
+/*banner end*/
